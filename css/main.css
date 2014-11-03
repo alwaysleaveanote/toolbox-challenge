@@ -1,0 +1,35 @@
+header {
+	text-align: center;
+	font-family: helvetica;
+	font-weight: 300;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+#stats p {
+	display: inline;
+	margin-left: 15%;
+	text-align: center
+}
+
+#game-board {
+	background-color: #000000;
+}
+
+#game-board img {
+	height: 24%;
+	width: 25%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+
+
+#winner {
+	font-weight: 700;
+	text-align: center;
+	display: none;
+}
+
+

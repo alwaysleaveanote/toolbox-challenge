@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<link rel='stylesheet' href = 'css/main.css'></link>
+	<body>
+
+	</body>
+
+	<header>
+		<h1>Memory!</h1>
+		<h2>This is a simple memory game!  Just start the game, click on the tiles to flip them over, and try to get as many matches as possible!</h2>
+		<p><button id="start-game">Start New Game</button></p>
+		<div id='stats'>
+			<p id='elapsed-seconds'></p>
+			<p id='matches'></p>
+			<p id='remaining'></p>
+			<p id='missed'></p>
+		</div>
+	</header>
+
+	<div id='stats'>
+		<p id='elapsed-seconds'></p>
+		<p id='matches'></p>
+		<p id='remaining'></p>
+		<p id='missed'></p>
+	</div>
+
+	<div id="game-board"></div>
+	<div id="winner">
+		<h1>OH MY GOD</h1>
+		<h1>YOU FUCKING WIN</h1>
+		<h1>YAAASSSSS</h1>
+		<img src='img/winner.gif' id='winnerGif'>
+	</div>
+
+	<script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+	<script src="js/app.js"></script>
+</html>
